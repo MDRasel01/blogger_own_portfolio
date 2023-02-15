@@ -1,0 +1,305 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) and (max-width: 1400px) {
+  
+    /* CSS */
+    .experience ul li p {
+        padding-right: 31px;
+    }
+    .services {
+        margin-bottom: 15px;
+    }
+    .service {
+        margin-right: 16px;
+    }
+    .citizen_info th, td {
+        font-size: 13px;
+    }
+    .language ul li button {
+        padding: 5px 5px;
+    }
+    ol, ul {
+        padding-left: 1rem;
+    }
+    .social_media ul {
+        padding-left: 41px;
+    }
+    .cusmtom_height_width {
+        height: 186px;
+        width: 309px;
+        margin-right: 13px;
+    }
+    
+  }
+
+   @media (min-width: 1281px) {
+  
+    /* CSS */
+    .btn {
+        padding: 7px 21px;
+        margin-bottom: 12px;
+        margin-right: 5px;
+    }
+    .content {
+        padding: 4px 0px;
+    }
+    .cusmtom_height_width {
+        height: 178px;
+        width: 264px;
+    }
+    .middle_image h1 {
+        padding: 0px 0px 3px 0px;
+    }
+    .middle_image {
+        padding: 45px 0px 20px 53px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Laptops, Desktops
+    ##Screen = B/w 1025px to 1280px
+  */
+  
+  @media (min-width: 1025px) and (max-width: 1280px) {
+    
+    /* CSS */
+    .man_info {
+        height: 746px;
+    }
+    .social_media ul {
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .experience ul li p {
+        padding-right: 19px;
+    }
+    .service {
+        margin-right: 17px;
+    }
+    .cusmtom_height_width {
+        height: 189px;
+        width: 287px;
+    }
+    .middle_image h1 {
+        padding: 0px 0px 3px 0px;
+    }
+    .middle_image {
+        padding: 37px 0px 20px 57px;
+    }
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (portrait)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) {
+    
+    /* CSS */
+    .man_info {
+        height: 735px;
+    }
+    .social_media ul li {
+        padding-left: 48px;
+    }
+    ol, ul {
+        padding-left: 4rem;
+    }
+    .middle_image h1 {
+        padding: 0px 0px 20px 0px;
+        font-size: 36px;
+    }
+    .middle_image {
+        padding: 36px 0px 15px 45px;
+    }
+    .middle_image p {
+        padding-top: 0px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Tablets, Ipads (landscape)
+    ##Screen = B/w 768px to 1024px
+  */
+  
+  @media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+    
+    /* CSS */
+    .social_media ul {
+        padding-left: 4px;
+        text-align: center;
+    }
+    ol, ul {
+        padding-left: 13rem;
+    }
+    .middle_image h1 {
+        padding: 34px 0px 20px 0px;
+        font-size: 57px;
+    }
+    .experience ul li p {
+        padding-right: 17px;
+    }
+    .cusmtom_height_width {
+        height: 205px;
+        width: 289px;
+        margin-right: 17px;
+    }
+    
+  }
+  
+  /* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+  */
+  
+  @media (min-width: 481px) and (max-width: 767px) {
+    
+    /* CSS */
+    .portfolio_image {
+        height: 117px;
+        width: 146px;
+    }
+    .portfolio_details {
+        padding: 64px 0px;
+        margin: 0px;
+    }
+    body {
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+        background-color: #191923;
+    }
+    .man_info {
+        height: 858px;
+    }
+    .middle_image {
+        padding: 60px 0px 20px 1px;
+    }
+    .middle_image h1 {
+        padding: 0px 0px 2px 27px;
+        font-size: 45px;
+    }.middle_image p {
+        font-size: 19px;
+        padding-left: 29px;
+        padding-top: 0px;
+        font-weight: bold;
+    }
+    .experience ul li p {
+        font-size: 19px;
+        padding-right: 9px;
+    }
+    .services {
+        display: grid;
+    }
+    .service {
+        margin-bottom: 33px;
+    }
+    .experience ul {
+        padding: 24px 0px 0px 3px;
+        text-align: center !important;
+    }
+    .services_title h3 {
+        font-size: 29px;
+        text-align: center;
+    }
+    .portfolio_gallery h3 {
+        padding: 1px 0px 8px 0px;
+        color: #eeecec !important;
+        text-align: center;
+    }
+    .btn {
+        padding: 6px 11px;
+        font-size: 15px;
+        margin-bottom: 10px;
+        margin-right: 6px;
+    }
+    .card {
+        border: none;
+        width: 30rem !important;
+    }
+    .cusmtom_height_width {
+        height: 216px;
+        width: 477px;
+        margin-bottom: 44px;
+    }
+
+  }
+  
+  /* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+  */
+  
+  @media (min-width: 320px) and (max-width: 480px) {
+    
+    /* CSS */
+    body {
+        padding: 0px;
+        margin: 0px 0px 0px 0px;
+    }
+    .man_info {
+        height: 788px;
+    }
+    .social_media ul {
+        color: white;
+        padding-left: 75px;
+        padding-top: 7px;
+    }
+    .middle_image h1 {
+        padding: 0px 0px 0px 1px;
+        font-size: 33px;
+    }
+    .middle_image {
+        padding: 24px 0px 20px 31px;
+    }
+    .middle_image p {
+        padding-top: 0px;
+    }
+    .experience ul li p {
+        font-size: 13px;
+        padding-right: 13px;
+    }
+    .experience ul {
+        padding: 24px 0px 0px 3px;
+        text-align: center;
+    }
+    .services_title h3 {
+        padding: 28px 0px 0px 0px;
+        font-size: 27px;
+        text-align: center;
+    }
+    .card {
+        border: none;
+        width: 20rem !important;
+    }
+    .services {
+        display: grid;
+        margin-bottom: 21px;
+    }
+    .service {
+        margin-bottom: 30px;
+    }
+    .portfolio_gallery h3 {
+        padding: 22px 0px 8px 0px;
+        color: white !important;
+        text-align: center;
+        font-size: 27px;
+    }
+    .btn {
+        border: none;
+        outline: none;
+        padding: 9px 13px;
+        background-color: white;
+        cursor: pointer !important;
+        font-size: 12px;
+        margin-bottom: 7px;
+        margin-right: 4px;
+    }
+    
+}

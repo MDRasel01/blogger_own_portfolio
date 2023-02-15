@@ -1,0 +1,249 @@
+body {
+	padding: 0px;
+	margin: 0px 206px 0px 200px;
+	background-color: #191923;
+}
+/* bg color: #FFC107 */
+.man_info{
+    background-color: #1E1E28;
+    display: block;
+    height: 598px;
+}
+
+.man_info h1, h2, h3, p, a{
+	color: #b0b6bd !important;
+}
+
+.portfolio_image img {
+	width: 100%;
+	height: auto;
+	border-radius: 59%;
+}
+
+.portfolio_image {
+	height: 106px;
+	width: 105px;
+	text-align: center;
+	margin: 0px auto;
+	padding: 27px 0px;
+}
+
+.portfolio_details {
+	padding: 31px 29px;
+	margin: 0px;
+}
+
+.middle_info {
+	height: 100px;
+	width: 315px;
+	background-color: #20202A;
+	margin: 0px auto;
+}
+
+.social_media ul li, .language ul li, .experience ul li{
+	display: inline-block;
+}
+
+.language ul li{
+	display: inline-block;
+	color: rgb(192, 192, 192);
+	font-weight: bold;
+}
+.language ul li button {
+	border: none;
+	background-color: #202020;
+	color: white;
+	padding: 5px 18px;
+}
+
+.citizen_info th,td{
+	color: rgb(192, 192, 192);
+}
+
+.moreinfo {
+	background-color: #272d23;
+	padding: 11px 31px 3px 32px;
+}
+.social_media a {
+	color: white;
+	text-decoration: none;
+}
+.social_media i {
+	color: white;
+}
+.social_media i:hover{
+	color: #E84C3D;
+}
+.social_media ul li {
+	color: white;
+	padding: 13px 0px;
+	padding-left: 26px;
+}
+.social_media ul{
+	color: white;
+	padding-left: 61px;
+}
+
+.progress{
+	margin: 10px 0px;
+}
+
+
+/* 2nd box ************************************************************/
+
+.progress-bar{
+	background-color: #E84C3D;
+}
+
+.middle_image {
+	background-image: url("https://drive.google.com/uc?export=download&id=105Ppm4narKe4s6MZ937aLA7JRjEFFLv5");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding: 83px 0px 20px 109px;
+	margin-top: 37px;
+}
+.middle_image h1 {
+	font-weight: bold;
+	padding: 0px 0px 20px 109px;
+	font-size: 56px;
+	color: white;
+}
+
+.middle_image p {
+	color: white;
+	font-size: 19px;
+	padding-top: 17px;
+}
+.service h1, h2, h3, p, a, i{
+	color: black;
+}
+.card-body {
+	flex: 1 1 auto;
+	padding: 2rem 2rem;
+	background-color: #3c3c3c;
+}
+.services_title h3{
+	color: white !important;
+}
+
+.card-body h5{
+	color: white;
+	font-weight: bold;
+}
+.card-body p {
+	font-size: 14px;
+	color: #aaa !important;
+}
+
+.services {
+	display: flex;
+	margin-bottom: 21px;
+}
+.service {
+	margin-right: 37px;
+}
+
+.services_title h3 {
+	color: white;
+	padding: 28px 0px 0px 0px;
+	font-weight: 700;
+	font-size: 21px;
+}
+
+.card{
+	border: none;
+}
+
+.card-body h5 {
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+
+/***** portfolio extra css *******/
+.column {
+	float: left;
+	width: 33.33%;
+	display: none; /* Hide all elements by default */
+  }
+  
+  /* Clear floats after rows */ 
+  .row:after {
+	content: "";
+	display: table;
+	clear: both;
+  }
+ 
+  .content {
+	padding: 23px 0px;
+	height: 247px !important;
+}
+  /* The "show" class is added to the filtered elements */
+  .show {
+	display: block;
+  }
+  
+  /* Style the buttons */
+  .btn {
+	border: none;
+	outline: none;
+	padding: 9px 18px;
+	background-color: white;
+	cursor: pointer !important;
+	font-size: 15px;
+}
+  
+  .btn:hover {
+	background-color: #ddd;
+  }
+  
+  .btn.active {
+	background-color: #E84C3D;
+	color: white;
+}
+
+  .portfolio_gallery h3 {
+	padding: 59px 0px 8px 0px;
+}
+
+.cusmtom_height_width {
+	height: 216px;
+	width: 360px;
+	margin-right: 17px;
+}
+
+.cusmtom_height_width img{
+	height: auto;
+	cursor: pointer !important;
+
+}
+/***** portfolio extra css *******/
+.experience ul li p{
+	font-size: 17px;
+	padding-right: 65px;
+	font-weight: bold;
+	color: #E84C3D !important;
+}
+.experience ul{
+	padding: 24px 0px 0px 3px;
+}
+.experience ul li p span{color: #abb1b9;}
+
+
+.service_order h6 {
+	color: orange;
+}
+.service_order {
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+/* 2nd box ************************************************************/
+
+/* 3rd box */
+
+.box_3rd{
+    background-color: #E84C3D;
+}
+
+/* 3rd box */
